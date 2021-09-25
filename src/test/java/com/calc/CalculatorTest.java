@@ -38,7 +38,6 @@ class CalculatorTest {
                 () -> assertEquals(-1.09, calculator.getSubtraction(-4, -2.91)),
                 () -> assertEquals(7.9, calculator.getSubtraction(0, -7.9)),
                 () -> assertEquals(15.29876, calculator.getSubtraction(11, -4.29876))
-
         );
     }
 
@@ -55,7 +54,6 @@ class CalculatorTest {
                 () -> assertEquals(32.62473, calculator.getMultiplication(-9, -3.62497)),
                 () -> assertEquals(0, calculator.getMultiplication(0, -15.985767)),
                 () -> assertEquals(-65.26762, calculator.getMultiplication(12, -5.438968))
-
         );
     }
 
