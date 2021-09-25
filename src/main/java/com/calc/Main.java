@@ -9,8 +9,8 @@ public class Main {
         startCalculator();
     }
 
-    public static void startCalculator() throws NumberFormatException{
-        String welcomeMassage = "Welcome to Console Calculator for Base Camp\n" +
+    public static void startCalculator() {
+        String welcomeMessage = "Welcome to Console Calculator for Base Camp\n" +
                 "Please press \"Enter\" after each typed number or operation\n";
         String firstNumberMessage = "Enter first number";
         String secondNumberMessage = "Enter second number";
@@ -21,7 +21,7 @@ public class Main {
         scanner.useLocale(Locale.US);
         Calculator calculator = new Calculator();
 
-        System.out.println(welcomeMassage);
+        System.out.println(welcomeMessage);
 
         while (true) {
             System.out.println(firstNumberMessage);
